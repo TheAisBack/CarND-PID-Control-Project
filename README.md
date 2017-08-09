@@ -28,19 +28,19 @@ _Please provide a clear description of the process that led to the choice of the
 
 I picked the parameters below because of manual tuning. Watching tutorials from Udacity and playing with the simulator constantly.
 
-`Kp = 0.1;
-Ki = 0.01;
-Kd = 3.5;`
+`Kp = 0.1;`
+`Ki = 0.01;`
+`Kd = 3.5;`
 
 I added the code in int main as such to play with different parameters, without redoing/saving the cpp file constantly. the code was helpful from the Udacity Q&A.
 
-`int main(int argc, char *argv[]) {
-  ...
-  double init_Kp = atof(argv[1]);
-  double init_Kp = atof(argv[2]);
-  double init_Kp = atof(argv[3]);
-  ...
-}`
+`int main(int argc, char *argv[]) {`
+  `...`
+  `double init_Kp = atof(argv[1]);`
+  `double init_Kp = atof(argv[2]);`
+  `double init_Kp = atof(argv[3]);`
+  `...`
+`}`
 
 ---
 
