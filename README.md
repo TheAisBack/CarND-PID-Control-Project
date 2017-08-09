@@ -3,6 +3,16 @@ Self-Driving Car Engineer Nanodegree Program
 
 ---
 
+### Importance and Respective Effects of the P, I, & D components in the PID Alogrithm
+
+Please provide a description of the relative importance and the respective effects of the P, I, and D components in your PID algorithm.
+
+### Process that led to the final parameters in the PID Controller
+
+Please provide a clear description of the process that led to the choice of the final parameters used in your PID controller.
+
+---
+
 ## Dependencies
 
 * cmake >= 3.5
