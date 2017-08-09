@@ -35,11 +35,11 @@ I picked the parameters below because of manual tuning. Watching tutorials from 
 I added the code in int main as such to play with different parameters, without redoing/saving the cpp file constantly. the code was helpful from the Udacity Q&A.
 
 `int main(int argc, char *argv[]) {`<br />
-&nbsp;`...`<br />
-&nbsp;`double init_Kp = atof(argv[1]);`<br />
-&nbsp;`double init_Kp = atof(argv[2]);`<br />
-&nbsp;`double init_Kp = atof(argv[3]);`<br />
-&nbsp;`...`<br />
+&nbsp;&nbsp;&nbsp;`...`<br />
+&nbsp;&nbsp;&nbsp;`double init_Kp = atof(argv[1]);`<br />
+&nbsp;&nbsp;&nbsp;`double init_Kp = atof(argv[2]);`<br />
+&nbsp;&nbsp;&nbsp;`double init_Kp = atof(argv[3]);`<br />
+&nbsp;&nbsp;&nbsp;`...`<br />
 `}`
 
 ---
