@@ -42,8 +42,8 @@ _Please provide a clear description of the process that led to the choice of the
 I picked the parameters below because of manual tuning. Watching tutorials from Udacity and playing with the simulator constantly.
 
 `Kp = 0.1;`<br />
-`Ki = 0.01;`<br />
-`Kd = 3.5;`<br />
+`Ki = 0;`<br />
+`Kd = 2.9;`<br />
 
 I added the code in int main as such to play with different parameters, without redoing/saving the cpp file constantly. the code was helpful from the Udacity Q&A.
 
