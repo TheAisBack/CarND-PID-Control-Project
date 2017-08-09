@@ -8,17 +8,30 @@ Self-Driving Car Engineer Nanodegree Program
 _Please provide a description of the relative importance and the respective effects of the P, I, and D components in your PID algorithm._
 
 ### P - Proportional
+
+The P controller controls the speed and will slow down when it is near the target, however, there are issues with overshooting and with the value changing causing an error. With this error we try to minimize it and prevent overshooting. 
+
 Formula of Proportional is:<br />
-`error = (target value) - (sensor reading)`
+`error = (target value) - (sensor reading)`<br />
+`speed = Kp * error`
 
 ### I - Integral
-Formula of Integral is:<br />
-`integral = integral + error * dT`
+
+The Integral is the method where when the Proportional piece of error is too small the integral comes in with the difference. The Integral is collecting the sum of the previous errors. Shrinking the error quickly preventing overshooting.  
+
+Formula of Integral with Proportional is:<br />
+`error = (target value) - (sensor reading)`<br />
+`integral = integral + error * dT`<br />
+`speed = Kp * error + Ki * integral`<br />
 
 ### D - Derivative
 
-Formula of Derivative is:<br />
-`derivative = ((current error) - (previous error)) / dt`
+The Derivative is to predict the future value for the error. The Derivative will react and make the speed to slow down when it thinks it will overshoot.
+
+Formula of Derivative with Integral and Proportional is:<br />
+`derivative = error – previous_error;`<br />
+`previous_error = error;`<br />
+`speed = Kp * error + Ki * integral + Kd * derivative;`
 
 ---
 
