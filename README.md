@@ -8,17 +8,17 @@ Self-Driving Car Engineer Nanodegree Program
 _Please provide a description of the relative importance and the respective effects of the P, I, and D components in your PID algorithm._
 
 ### P - Proportional
-Formula of Proportional is:
-  error = (target value) - (sensor reading)
+Formula of Proportional is:<br />
+'error = (target value) - (sensor reading)'
 
 ### I - Integral
-Formula of Integral is:
-  integral = integral + error * dT
+Formula of Integral is:<br />
+'integral = integral + error * dT'
 
 ### D - Derivative
 
-Formula of Derivative is:
-  derivative = ((current error) - (previous error)) / dt
+Formula of Derivative is:<br />
+'derivative = ((current error) - (previous error)) / dt'
 
 ---
 
