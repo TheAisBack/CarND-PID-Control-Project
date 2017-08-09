@@ -1,0 +1,5 @@
+PID Controller Project
+
+Developing for this project has taught me how to fine-tune the parameters to make sure that the car to stay on the road. Being patient helps and constantly testing until the right combination works and makes the car function properly.
+
+Learning about PID Controller is helping me become a better self-driving engineer.
