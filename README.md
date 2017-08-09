@@ -5,12 +5,14 @@ Self-Driving Car Engineer Nanodegree Program
 
 ## Importance and Respective Effects of the P, I, & D components in the PID Alogrithm
 
-Please provide a description of the relative importance and the respective effects of the P, I, and D components in your PID algorithm.
+_Please provide a description of the relative importance and the respective effects of the P, I, and D components in your PID algorithm._
 
 ### P - Proportional
+Formula of Proportional is:
   error = (target value) - (sensor reading)
 
 ### I - Integral
+Formula of Integral is:
   integral = integral + error * dT
 
 ### D - Derivative
@@ -20,11 +22,14 @@ Formula of Derivative is:
 
 ## Process that led to the final parameters in the PID Controller
 
-Please provide a clear description of the process that led to the choice of the final parameters used in your PID controller.
+_Please provide a clear description of the process that led to the choice of the final parameters used in your PID controller._
+
+I picked the parameters
 
 Kp = 0.1
 Ki = 0.01
-Kd = 3.0
+Kd = 3.5
+
 
 ---
 
