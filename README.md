@@ -9,16 +9,16 @@ _Please provide a description of the relative importance and the respective effe
 
 ### P - Proportional
 Formula of Proportional is:<br />
-'error = (target value) - (sensor reading)'
+`error = (target value) - (sensor reading)`
 
 ### I - Integral
 Formula of Integral is:<br />
-'integral = integral + error * dT'
+`integral = integral + error * dT`
 
 ### D - Derivative
 
 Formula of Derivative is:<br />
-'derivative = ((current error) - (previous error)) / dt'
+`derivative = ((current error) - (previous error)) / dt`
 
 ---
 
