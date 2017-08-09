@@ -20,6 +20,8 @@ Formula of Integral is:
 Formula of Derivative is:
   derivative = ((current error) - (previous error)) / dt
 
+---
+
 ## Process that led to the final parameters in the PID Controller
 
 _Please provide a clear description of the process that led to the choice of the final parameters used in your PID controller._
@@ -27,9 +29,10 @@ _Please provide a clear description of the process that led to the choice of the
 I picked the parameters
 
 Kp = 0.1
-Ki = 0.01
-Kd = 3.5
 
+Ki = 0.01
+
+Kd = 3.5
 
 ---
 
